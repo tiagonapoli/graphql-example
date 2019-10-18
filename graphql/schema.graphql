@@ -1,0 +1,30 @@
+type Book {
+  authors: [String!]
+  cacheId: ID!
+  id: ID!
+  name: String
+}
+
+input GRITANDO {
+  id: ID
+}
+
+input psiu {
+  Oloco: String
+}
+
+type TIPO_DA_GRITARIA {
+  OXENTE: String
+}
+
+enum EITA {
+  CASEdOidao
+  OlOcO
+  EITA
+  OlhaUmPascal
+  oxe
+}
+
+type Query {
+  source(id: ID!): String
+}
